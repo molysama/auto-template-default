@@ -21,7 +21,7 @@
         "README.md",
         ".gitignore"
     ],
-    "packageName": "com.example.demo",
+    "packageName": "com.example.hello",
     "versionName": "1.0.0",
     "versionCode": 1
 }
