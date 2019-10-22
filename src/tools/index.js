@@ -6,7 +6,7 @@ const core = Core()
 
 core.use(Action)
 
-export default {
+export {
     click,
     swipe
 }
