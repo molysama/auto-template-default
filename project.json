@@ -13,7 +13,7 @@
         "webpack.config.js"
     ],
     "launchConfig": {
-        "hideLogs": false,
+        "hideLogs": true,
         "stableMode": true
     },
     "packageName": "com.example.hello",
