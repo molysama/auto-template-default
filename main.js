@@ -1,3 +1,3 @@
 
 
-require('dist/build')
+require('dist/app')
