@@ -3,7 +3,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const JavascriptObfuscator = require("webpack-obfuscator")
 
 const dictionary = []
-for (let i = 100; i < 200; i++) {
+for (let i = 128; i < 200; i++) {
     dictionary.push(
         i
             .toString(2)
