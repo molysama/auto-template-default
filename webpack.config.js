@@ -1,9 +1,10 @@
 const path = require("path")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const JavascriptObfuscator = require("webpack-obfuscator")
+const AutoProWebpackPlugin = require('@auto.pro/webpack-plugin')
 
 const dictionary = []
-for (let i = 128; i < 200; i++) {
+for (let i = 1024; i < 2048; i++) {
     dictionary.push(
         i
             .toString(2)
@@ -37,6 +38,9 @@ module.exports = {
             transformObjectKeys: false,
             // 转义为Unicode，会大大增加体积，还原也比较容易，建议只对小文件使用
             unicodeEscapeSequence: false
+        }),
+        new AutoProWebpackPlugin({
+            ui: []
         })
     ],
     module: {
