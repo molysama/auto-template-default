@@ -1,8 +1,8 @@
-const a = 123
-const b = 456
+const a = 'a'
+const b = 'b'
 
-function c(x, y) {
+function show(x = 'x', y = 'y') {
     console.log(x + y + a + b)
 }
 
-c()
+show()
