@@ -1,1 +1,114 @@
-var a0ννvvvvvvνvν=['toStringTag','default','call','undefined','length','exports','object','log','string','__esModule','defineProperty','create','bind','hasOwnProperty'];(function(ννvvvvvvνvν,νvνvvvνvvνν){var νvνvννvvννν=function(νvνvvvvvvνν){while(--νvνvvvvvvνν){ννvvvvvvνvν['push'](ννvvvvvvνvν['shift']());}};νvνvννvvννν(++νvνvvvνvvνν);}(a0ννvvvvvvνvν,0x1ce));var a0νvνvvvνvvνν=function(ννvvvvvvνvν,νvνvvvνvvνν){ννvvvvvvνvν=ννvvvvvvνvν-0x0;var νvνvννvvννν=a0ννvvvvvvνvν[ννvvvvvvνvν];return νvνvννvvννν;};!function(νvνvννvvννν){var νvνvvvvvvνν={};function νννvννvνννv(νννννvvνvvν){if(νvνvvvvvvνν[νννννvvνvvν])return νvνvvvvvvνν[νννννvvνvvν][a0νvνvvvνvvνν('0x5')];var νvννvvvvνvν=νvνvvvvvvνν[νννννvvνvvν]={'i':νννννvvνvvν,'l':!0x1,'exports':{}};return νvνvννvvννν[νννννvvνvvν][a0νvνvvvνvvνν('0x2')](νvννvvvvνvν['exports'],νvννvvvvνvν,νvννvvvvνvν[a0νvνvvvνvvνν('0x5')],νννvννvνννv),νvννvvvvνvν['l']=!0x0,νvννvvvvνvν['exports'];}νννvννvνννv['m']=νvνvννvvννν,νννvννvνννv['c']=νvνvvvvvvνν,νννvννvνννv['d']=function(νvνvvvννννν,νvνvvνvνvνν,νvvννvννvνv){νννvννvνννv['o'](νvνvvvννννν,νvνvvνvνvνν)||Object['defineProperty'](νvνvvvννννν,νvνvvνvνvνν,{'enumerable':!0x0,'get':νvvννvννvνv});},νννvννvνννv['r']=function(νvvvνννννvν){a0νvνvvvνvvνν('0x3')!=typeof Symbol&&Symbol[a0νvνvvvνvvνν('0x0')]&&Object['defineProperty'](νvvvνννννvν,Symbol[a0νvνvvvνvvνν('0x0')],{'value':'Module'}),Object[a0νvνvvvνvvνν('0xa')](νvvvνννννvν,a0νvνvvvνvvνν('0x9'),{'value':!0x0});},νννvννvνννv['t']=function(νννvνvννvνν,νvvνvννvvνν){if(0x1&νvvνvννvvνν&&(νννvνvννvνν=νννvννvνννv(νννvνvννvνν)),0x8&νvvνvννvvνν)return νννvνvννvνν;if(0x4&νvvνvννvvνν&&a0νvνvvvνvvνν('0x6')==typeof νννvνvννvνν&&νννvνvννvνν&&νννvνvννvνν['__esModule'])return νννvνvννvνν;var νvvvvνvvνvv=Object[a0νvνvvvνvvνν('0xb')](null);if(νννvννvνννv['r'](νvvvvνvvνvv),Object['defineProperty'](νvvvvνvvνvv,a0νvνvvvνvvνν('0x1'),{'enumerable':!0x0,'value':νννvνvννvνν}),0x2&νvvνvννvvνν&&a0νvνvvvνvvνν('0x8')!=typeof νννvνvννvνν)for(var νvvvvvννννv in νννvνvννvνν)νννvννvνννv['d'](νvvvvνvvνvv,νvvvvvννννv,function(νvνννvνvvνν){return νννvνvννvνν[νvνννvνvvνν];}[a0νvνvvvνvvνν('0xc')](null,νvvvvvννννv));return νvvvvνvvνvv;},νννvννvνννv['n']=function(ννvvvvνvvvv){var ννvvvνvvννv=ννvvvvνvvvv&&ννvvvvνvvvv[a0νvνvvvνvvνν('0x9')]?function(){return ννvvvvνvvvv[a0νvνvvvνvvνν('0x1')];}:function(){return ννvvvvνvvvv;};return νννvννvνννv['d'](ννvvvνvvννv,'a',ννvvvνvvννv),ννvvvνvvννv;},νννvννvνννv['o']=function(νvνvvvvvννv,νvννννvvνvv){return Object['prototype'][a0νvνvvvνvvνν('0xd')][a0νvνvvvνvvνν('0x2')](νvνvvvvvννv,νvννννvvνvv);},νννvννvνννv['p']='',νννvννvνννv(νννvννvνννv['s']=0x0);}([function(ννvvνννvννv,νvννvvvνννν,νvννvvνvννv){'use strict';var νvvνvvννvνν='a',νννvνvvνvνν='b';!function(){var νvνvvvνvνvν=arguments[a0νvνvvvνvvνν('0x4')]>0x0&&void 0x0!==arguments[0x0]?arguments[0x0]:'x',νvvvννvvvνv=arguments[a0νvνvvvνvvνν('0x4')]>0x1&&void 0x0!==arguments[0x1]?arguments[0x1]:'y';console[a0νvνvvvνvvνν('0x7')](νvνvvvνvνvν+νvvvννvvvνv+νvvνvvννvνν+νννvνvvνvνν);}();}]);
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var a = 'a';
+var b = 'b';
+
+function show() {
+  var x = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'x';
+  var y = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'y';
+  throw 'wrong';
+  console.log(x + y + a + b);
+}
+
+show();
+
+/***/ })
+
+/******/ });
+//# sourceMappingURL=app.js.map
