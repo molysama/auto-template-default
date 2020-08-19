@@ -1,10 +1,16 @@
-const a = 'a'
-const b = 'b'
+const hello = 'hello'
 
-function show(x = 'x', y = 'y') {
-    throw 'wrong'
-    console.log(x + y + a + b)
-
+function show(world = ',world') {
+    return hello + world
 }
 
-show()
+const result = show()
+
+toastLog(result)
+
+ui.layout(
+    <vertical>
+        <button text="{{result}}" />
+        <button text="第二个按钮" />
+    </vertical>
+)
