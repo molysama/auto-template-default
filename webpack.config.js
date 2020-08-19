@@ -2,6 +2,7 @@ const path = require("path")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const JavascriptObfuscator = require("webpack-obfuscator")
 const AutoProWebpackPlugin = require('@auto.pro/webpack-plugin')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 
 const dictionary = []
@@ -64,6 +65,7 @@ module.exports = (env, argv) => {
     if (argv.mode === 'development') {
         config.plugins = [
             new CleanWebpackPlugin(),
+            new BundleAnalyzerPlugin(),
             compilePlugin
         ]
         config.devtool = 'source-map'
