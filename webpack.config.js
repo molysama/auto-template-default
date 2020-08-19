@@ -16,7 +16,7 @@ for (let i = 1024; i < 2048; i++) {
 
 const compilePlugin = new AutoProWebpackPlugin({
     ui: ['app'],
-    // entry: {
+    // encode: {
     //     key: ''
     // }
 })
