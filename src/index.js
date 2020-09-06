@@ -10,7 +10,14 @@ toastLog(result)
 
 ui.layout(
     <vertical>
-        <button text="{{result}}" />
-        <button text="第二个按钮{{hello}}" />
+        <button id="btn1" text="{{result}}" />
+        <button id="btn2" text="第二个按钮{{hello}}" />
     </vertical>
 )
+
+ui.btn1.on('click', () => {
+    toastLog(show())
+})
+ui.btn2.on('click', () => {
+    toast(hello)
+})
