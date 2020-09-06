@@ -1,23 +1,22 @@
-const hello = 'hello'
 
-function show(world = ',world') {
-    return hello + world
+function show(hello, world = 'world') {
+    return `${hello},${world}!`
 }
 
-const result = show()
-
-toastLog(result)
+const hello = 'hello'
+const result = show(hello)
 
 ui.layout(
     <vertical>
         <button id="btn1" text="{{result}}" />
-        <button id="btn2" text="第二个按钮{{hello}}" />
+        <button id="btn2" text="按钮{{hello}}" />
     </vertical>
 )
 
 ui.btn1.on('click', () => {
-    toastLog(show())
+    toastLog(result)
 })
+
 ui.btn2.on('click', () => {
     toast(hello)
 })

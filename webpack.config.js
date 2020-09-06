@@ -2,11 +2,12 @@ const path = require("path")
 const { CleanWebpackPlugin } = require("clean-webpack-plugin")
 const JavascriptObfuscator = require("webpack-obfuscator")
 const AutoProWebpackPlugin = require('@auto.pro/webpack-plugin')
+const ProgressPlugin = require('progress-bar-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 
 const dictionary = []
-for (let i = 1024; i < 2048; i++) {
+for (let i = 4096; i < 4096 + 2048; i++) {
     dictionary.push(
         i
             .toString(2)
@@ -66,7 +67,8 @@ module.exports = (env, argv) => {
         config.plugins = [
             new CleanWebpackPlugin(),
             new BundleAnalyzerPlugin(),
-            compilePlugin
+            compilePlugin,
+            new ProgressPlugin()
         ]
         config.devtool = 'source-map'
     } else {
@@ -81,7 +83,8 @@ module.exports = (env, argv) => {
                 stringArray: true,
                 stringArrayEncoding: ['rc4'],
             }),
-            compilePlugin
+            compilePlugin,
+            new ProgressPlugin()
         ]
     }
 
