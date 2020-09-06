@@ -11,7 +11,7 @@
     "license": "ISC",
     "devDependencies": {
         "@auto.pro/webpack-loader": "^8.12.5",
-        "@auto.pro/webpack-plugin": "latest",
+        "@auto.pro/webpack-plugin": "^8.13.1",
         "@babel/core": "^7.4.0",
         "@babel/plugin-transform-modules-commonjs": "^7.7.4",
         "@babel/plugin-transform-runtime": "^7.6.2",
@@ -20,7 +20,7 @@
         "babel-loader": "^8.0.5",
         "clean-webpack-plugin": "^3.0.0",
         "ts-loader": "^6.2.1",
-        "typescript": "^3.6.4",
+        "typescript": "^3.9.7",
         "url-loader": "^1.1.2",
         "webpack": "^4.41.2",
         "webpack-bundle-analyzer": "^3.8.0",
@@ -28,7 +28,7 @@
         "webpack-obfuscator": "^0.25.4"
     },
     "dependencies": {
-        "@auto.pro/core": "latest",
+        "@auto.pro/core": "^9.0.3",
         "@babel/polyfill": "^7.4.0"
     }
 }
